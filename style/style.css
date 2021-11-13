@@ -1,0 +1,42 @@
+body {
+  background-image: url(../images/partituraFondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  text-align: center;
+}
+header {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 300%;
+  width: auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.navbar-brand {
+  color: aliceblue !important;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+.viaje {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 10%;
+}
+.mapa {
+  margin-top: 5%;
+  height: 40%;
+  width: 50%;
+}
