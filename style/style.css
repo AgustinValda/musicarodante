@@ -47,6 +47,7 @@ header {
   height: 50vh;
 }
 h1 {
+  font-size: 100rem;
   font-family: "Mr Dafoe", cursive;
 }
 /* #logo {
