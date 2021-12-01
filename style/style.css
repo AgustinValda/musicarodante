@@ -6,7 +6,7 @@ body {
   background-position: top;
   background-attachment: fixed;
 }
-/*estilos barra de navegación*/
+/*estilos barra de navegación 0.363 fondo negro*/
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   background-color: rgba(0, 0, 0, 0.363) !important;
 }
@@ -19,7 +19,7 @@ body {
 }
 /* Estilos seccion principal yendo desde lo el bloque principal, hacia los textos */
 header {
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 0.5%;
   margin-bottom: 0.5%;
   margin-left: 5%;
@@ -38,33 +38,47 @@ header {
 }
 #titulo {
   text-align: center;
-  color: #ff7c39;
+  color: #ff8200;
   margin-top: 25%;
   margin-left: 20%;
   width: 40vw;
   height: 50vh;
 }
-#logo {
+/* #logo {
   background-image: url(../images/LogoMusica.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   background-attachment: inherit;
   margin-top: 5%;
   margin-left: 30%;
-  width: 40vw;
+  margin-right: 5%;
+  width: 100vw;
   height: 40vh;
   max-width: 30vw;
   min-width: none;
-}
+} */
 #contenerLogo {
   width: 50vw;
   height: 50vh;
 }
+/* @media screen and (max-width: 800px) {
+  #logo {
+    background-image: url(../images/LogoMusicaChico.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: inherit;
+    width: 100vw;
+    height: 40vh;
+    max-width: none;
+    min-width: none; 
+  }
+} */
 /* Estilos seccion de las actividaes que se llevan a cabo*/
 section {
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 0.5%;
   margin-bottom: 0.5%;
   margin-left: 5%;
@@ -81,7 +95,7 @@ section .btn.btn-warning {
   color: rgb(207, 206, 206);
 }
 .tituloAct {
-  color: #ff7c39;
+  color: #ff8200;
 }
 .col-md {
   background-color: rgba(0, 0, 0, 0.356);
@@ -106,4 +120,8 @@ section .btn.btn-warning {
   margin-block: 2%;
   height: 25vh;
   width: 25vw;
+}
+#carrusel {
+  width: 90%;
+  margin-left: 5%;
 }
